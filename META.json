@@ -1,0 +1,77 @@
+{
+   "abstract" : "It's module that description livedoor weather.",
+   "author" : [
+      "sue7ga <sue77ga@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.11.0",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "WWW-Livedoor-Weather",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Furl" : "0",
+            "JSON" : "0",
+            "LWP::UserAgent" : "0",
+            "XML::Simple" : "0",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "provides" : {
+      "WWW::Livedoor::Weather" : {
+         "file" : "lib/WWW/Livedoor/Weather.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sue7ga/WWW-Livedoor-Weather/issues"
+      },
+      "homepage" : "https://github.com/sue7ga/WWW-Livedoor-Weather",
+      "repository" : {
+         "url" : "git://github.com/sue7ga/WWW-Livedoor-Weather.git",
+         "web" : "https://github.com/sue7ga/WWW-Livedoor-Weather"
+      }
+   },
+   "version" : "0.01"
+}

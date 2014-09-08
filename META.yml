@@ -1,0 +1,42 @@
+---
+abstract: "It's module that description livedoor weather."
+author:
+  - 'sue7ga <sue77ga@gmail.com>'
+build_requires:
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Livedoor-Weather
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  WWW::Livedoor::Weather:
+    file: lib/WWW/Livedoor/Weather.pm
+    version: 0.01
+requires:
+  Furl: 0
+  JSON: 0
+  LWP::UserAgent: 0
+  XML::Simple: 0
+  perl: 5.008005
+resources:
+  bugtracker: https://github.com/sue7ga/WWW-Livedoor-Weather/issues
+  homepage: https://github.com/sue7ga/WWW-Livedoor-Weather
+  repository: git://github.com/sue7ga/WWW-Livedoor-Weather.git
+version: 0.01
